@@ -1,0 +1,16 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>gulpfile.js</DefaultName>
+    <Name>Gulp build sytem </Name>
+    <Description>Gulp: The streaming build system. For more information about Gulp please visit http://gulpjs.com </Description>
+    <Icon>icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <TemplateID>edcd1a6c-23ba-494f-ab66-2fe13aeae46f</TemplateID>
+    <AppliesTo>ABC | (!ABC)</AppliesTo>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem ReplaceParameters="true">gulpfile.js</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

@@ -150,6 +150,13 @@
     <None Include="ItemTemplates\Web\Misc\RobotsTxt\_Definitions\CSharp.vstemplate" />
     <None Include="ItemTemplates\Web\Misc\RobotsTxt\_Definitions\Web.csharp.vstemplate" />
     <None Include="ItemTemplates\Web\Misc\RobotsTxt\_Definitions\VB.vstemplate" />
+    <None Include="ItemTemplates\Web\JavaScript\GulpJS\Definitions\CSharp.vstemplate" />
+    <None Include="ItemTemplates\Web\JavaScript\GulpJS\Definitions\VB.vstemplate" />
+    <None Include="ItemTemplates\Web\JavaScript\GulpJS\Definitions\Web.csharp.vstemplate" />
+    <Content Include="ItemTemplates\Web\JavaScript\GulpJS\gulpfile.js\config\index.js" />
+    <Content Include="ItemTemplates\Web\JavaScript\GulpJS\gulpfile.js\index.js" />
+    <Content Include="ItemTemplates\Web\JavaScript\GulpJS\gulpfile.js\tasks\default.js" />
+    <Content Include="ItemTemplates\Web\JavaScript\GulpJS\icon.png" />
     <Content Include="resources\Package.ico" />
     <None Include="ItemTemplates\Azure\CloudServicePlugin\CloudServicePlugin.csplugin" />
     <None Include="ItemTemplates\Build and NuGet\MSBuild\NuGetRestoreProjFile\build.proj" />
@@ -880,6 +887,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ItemTemplates\Web\JavaScript\GulpJS\gulpfile.js\lib\" />
     <Folder Include="Snippets\C++\SideWaffle\" />
     <Folder Include="Snippets\HTML\SideWaffle\" />
     <Folder Include="Snippets\SQL\SideWaffle\" />
