@@ -155,6 +155,10 @@
     <None Include="ItemTemplates\Web\JavaScript\GulpJS\Definitions\Web.csharp.vstemplate" />
     <Content Include="ItemTemplates\Web\JavaScript\GulpJS\gulpfile.js\config\index.js" />
     <Content Include="ItemTemplates\Web\JavaScript\GulpJS\gulpfile.js\index.js" />
+    <Content Include="ItemTemplates\Web\JavaScript\GulpJS\gulpfile.js\lib\compileLogger.js" />
+    <Content Include="ItemTemplates\Web\JavaScript\GulpJS\gulpfile.js\lib\handleErrors.js" />
+    <Content Include="ItemTemplates\Web\JavaScript\GulpJS\gulpfile.js\lib\prettifyTime.js" />
+    <Content Include="ItemTemplates\Web\JavaScript\GulpJS\gulpfile.js\lib\repeatString.js" />
     <Content Include="ItemTemplates\Web\JavaScript\GulpJS\gulpfile.js\tasks\default.js" />
     <Content Include="ItemTemplates\Web\JavaScript\GulpJS\icon.png" />
     <Content Include="resources\Package.ico" />
@@ -887,7 +891,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ItemTemplates\Web\JavaScript\GulpJS\gulpfile.js\lib\" />
     <Folder Include="Snippets\C++\SideWaffle\" />
     <Folder Include="Snippets\HTML\SideWaffle\" />
     <Folder Include="Snippets\SQL\SideWaffle\" />
